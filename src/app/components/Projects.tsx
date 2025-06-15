@@ -36,7 +36,7 @@ const ProjectCard = ({ project }: { project: typeof projectsData[0] }) => (
 
     {/* Container do Conteúdo */}
     <div className="p-6 flex flex-col text-white">
-      <h4 className="text-2xl font-bold mb-2 truncate" title={project.title}>{project.title}</h4>
+      <h4 className="text-lg font-bold mb-2 truncate" title={project.title}>{project.title}</h4>
       
       {/* Conteúdo que aparece no hover */}
       <div className="transition-all duration-300 ease-in-out opacity-0 group-hover:opacity-100 max-h-0 group-hover:max-h-96">
