@@ -21,7 +21,7 @@ export default function Contact() {
     setFormData(prevState => ({ ...prevState, [name]: value }));
   };
 
-  const NEXT_PAGE_URL = "https://SEU-DOMINIO.com/thank-you"; 
+  const NEXT_PAGE_URL = "https://s4r41va.com/thank-you"; 
 
   return (
     // FUNDO ALTERADO para branco
