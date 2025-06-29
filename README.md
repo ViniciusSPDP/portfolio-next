@@ -48,8 +48,7 @@ Siga os passos abaixo para executar o projeto na sua máquina.
 
 ```bash
 # 1. Clone o repositório
-git clone [https://github.com/ViniciusSPDP/portfolio-next.git](https://github.com/ViniciusSPDP/portfolio-next.git)
-
+git clone https://github.com/ViniciusSPDP/portfolio-next.git
 # 2. Navegue até a pasta do projeto
 cd portfolio-next
 
