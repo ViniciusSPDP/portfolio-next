@@ -11,8 +11,7 @@ Este é o repositório da nova versão do meu portfólio pessoal, totalmente rec
 
 ---
 
-![Prévia do Projeto](https://raw.githubusercontent.com/ViniciusSPDP/Portfolio-Pessoal/main/IMGS/SARAIVA%20(1).jpg)
-*(Sugestão: tire um print da tela do seu novo site e substitua o link da imagem acima para uma prévia mais fiel.)*
+![Prévia do Projeto](https://raw.githubusercontent.com/ViniciusSPDP/Portfolio-Pessoal/main/IMGS/Capa.png)
 
 ## 📝 Sobre o Projeto
 

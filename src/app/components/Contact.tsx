@@ -33,7 +33,7 @@ export default function Contact() {
           Tem alguma pergunta ou quer trabalhar comigo? Preencha o formulário abaixo.
         </p>
 
-        <form action="https://formsubmit.co/viniciussaraivapdp@gmail.com" method="POST" className="w-full">
+        <form action="https://formsubmit.co/cortes.br2709@gmail.com" method="POST" className="w-full">
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_next" value={NEXT_PAGE_URL} />
           
