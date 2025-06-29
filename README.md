@@ -11,7 +11,7 @@ Este é o repositório da nova versão do meu portfólio pessoal, totalmente rec
 
 ---
 
-![Prévia do Projeto](https://raw.githubusercontent.com/ViniciusSPDP/Portfolio-Pessoal/main/IMGS/Capa.png)
+![Prévia do Projeto](https://raw.githubusercontent.com/ViniciusSPDP/portfolio-next/main/public/IMGS/Capa.png)
 
 ## 📝 Sobre o Projeto
 
