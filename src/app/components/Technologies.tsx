@@ -46,7 +46,16 @@ export default function Technologies() {
       <div className="relative container mx-auto px-6 text-center z-10">
         <h2 className="text-4xl font-bold mb-2 text-white">TECNOLOGIAS</h2>
         <p className="text-lg text-gray-300 mb-12">Passe o mouse sobre o card para ver a descrição</p>
-        <div className="flex flex-wrap justify-center items-center gap-8">
+        
+        {/* --- ALTERAÇÃO AQUI ---
+          Adicionamos 'max-w-5xl' (que tem 64rem) e 'mx-auto'.
+          - Cada card tem 18rem (w-72).
+          - 3 cards + 2 vãos = (18 * 3) + (2 * 2) = 54 + 4 = 58rem. (Cabe)
+          - 4 cards + 3 vãos = (18 * 4) + (3 * 2) = 72 + 6 = 78rem. (Não cabe)
+          - Isso força a quebra para 3 em cima e 2 embaixo. O 'justify-center' alinha os 2 de baixo.
+          - No mobile, 'max-w-5xl' não faz efeito e o 'flex-wrap' empilha os 5 cards.
+        */}
+        <div className="flex flex-wrap justify-center items-center gap-8 max-w-5xl mx-auto">
           {technologiesData.map((tech) => (
             <TechnologyCard key={tech.name} {...tech} />
           ))}
